@@ -1,0 +1,78 @@
+* {
+  font-family: "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  position: fixed;
+  text-align: right;
+  background-color: beige;
+  width: 99%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid yellow;
+}
+
+.header > .links {
+  display: inline;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: burlywood;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.dog-image {
+  background-color: bisque;
+  display: block;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid orange;
+  text-align: center;
+}
+
+.dog-image img {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.contact-form {
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px;
+}
+
+.contact-form > .name {
+  padding-bottom: 5px;
+}
+
+.contact-form > .email {
+  padding-bottom: 5px;
+}
+#message1 {
+  height: 100px;
+}
+
+.footer {
+  background-color: beige;
+  border-top: 1px solid yellow;
+  margin-top: 10px;
+  padding-bottom: 2px;
+}
